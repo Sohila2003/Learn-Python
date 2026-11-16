@@ -9,8 +9,5 @@ while True :
     elif (pr1 == "R" and pr2 == "S") or (pr1 == "S" and pr2 == "P") or (pr1 == "P" and pr2 == "R"):
         print("pr1 win")
 
-    elif (pr1 == "S" and pr2 == "R") or (pr1 == "P" and pr2 == "S") or (pr1 == "R" and pr2 == "P"):
-        print("pr2 win")
-
     else:
-        print("خطأ في الادخال")
+        print("pr2 win")
